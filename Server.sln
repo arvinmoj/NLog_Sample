@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Server", "Server", "{97EA7F07-479E-4EC1-AC07-78770335FF48}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logging", "Server\Logging\Logging.csproj", "{612AB25D-A80F-4360-A243-91EF8F7C936D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server", "Server\Server\Server.csproj", "{B0E808EA-529C-40C8-B065-0CEDBC98F2FC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{612AB25D-A80F-4360-A243-91EF8F7C936D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{612AB25D-A80F-4360-A243-91EF8F7C936D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{612AB25D-A80F-4360-A243-91EF8F7C936D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{612AB25D-A80F-4360-A243-91EF8F7C936D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0E808EA-529C-40C8-B065-0CEDBC98F2FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0E808EA-529C-40C8-B065-0CEDBC98F2FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0E808EA-529C-40C8-B065-0CEDBC98F2FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0E808EA-529C-40C8-B065-0CEDBC98F2FC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{612AB25D-A80F-4360-A243-91EF8F7C936D} = {97EA7F07-479E-4EC1-AC07-78770335FF48}
+		{B0E808EA-529C-40C8-B065-0CEDBC98F2FC} = {97EA7F07-479E-4EC1-AC07-78770335FF48}
+	EndGlobalSection
+EndGlobal
